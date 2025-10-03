@@ -1,0 +1,49 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  margin-bottom: 20px;
+  padding: 0;
+  height: 200px;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixy78HO__jps7jKXd_nECKq9nM21a_06ydjgMuAz5cFDwsekIHXvDSPUFrVhT2GVdeQvxIAda4DinXixma36fmuruAznIlKTKeG8_MsLRzxkRBbID1Nql4BXIbnCa2qQEuD7uQwmJBzGK2/s1600/CURSO%2520DE%2520LITURGIA%2520II%2520.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.titulo {
+  background-color: rgba(228, 195, 10.10);
+  padding: 10px 20px;             
+  border-radius: 8px;    
+}
+
+.introdução{
+  display: flex;
+  background-color: gold;
+  border-radius: 1em;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid black 2px;
+}
+
+.objetos01{
+  display: flex;
+  border: solid black 2px;
+  background-color: gold;
+  padding: 5px;
+  min-width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgigreja{
+  max-width: 30em;
+  margin-top: 4px;
+  border: solid white ;
+  border-radius: 1em;
+  justify-content: wrap;
+  min-width: 300px;
+}

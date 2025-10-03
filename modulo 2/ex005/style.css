@@ -1,0 +1,9 @@
+div{
+  background-color: aqua;
+  border-radius: 1em;
+  width: 500px;
+  margin: 30px auto;
+  padding: 5px 5px 10px 8px;
+  text-align: justify;
+  box-shadow: rgb(93, 158, 158) 6px 5px 8px 0px;
+}

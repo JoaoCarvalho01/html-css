@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    background-image: url(imagens/universoimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Alfa Slab One", serif;
+    color: white;
+}
+
+
+div{
+    background-color: rgb(246, 247, 250);
+    margin: auto;
+    width: 400px;
+    height:170px;
+ border-radius: 20px;
+}
+
+.usuario{
+   margin-left: 10px ;
+   margin-right: 80px;
+   margin-top: 25px;
+   display: inline-block;
+    font-family: "Alfa Slab One", serif;
+}
+
+input[type='text']{
+    margin-left: 10px;
+    width: 150px;
+    margin-right: 3px;
+    border-radius: 8px;
+    outline: none;
+    border: solid 1px;
+    text-align: left 3px;
+}
+
+.senha{
+    margin-left: 40px;
+     font-family: "Alfa Slab One", serif;
+}
+
+
+input[type="password"]{
+    margin-left: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    outline: none;
+    border: solid 1px;
+    
+}
+
+button{
+    display: block;
+    margin-top: 45px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border:10px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(180, 119, 237);
+}
+

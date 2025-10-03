@@ -1,0 +1,36 @@
+body{
+    background-image:url(imagens/imagem-minecraft.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+ h1{
+    text-align: center;
+    font-size: 15;
+ }
+ div{
+    border: solid 1px;
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    padding: 15px;
+    
+    border-radius: 20px;
+ }
+
+ input {
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: auto;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+ }
+
+ 
