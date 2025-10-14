@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body{
+  margin: 0px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 100;
+  font-style: normal; 
+  color: #433633;
+}
+
+header{
+  margin-top: 0px;
+  background-image:linear-gradient(to top, #433633, #ee964b);
+  height: 100px;
+  color:white; 
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 20px 2px #443633;
+}
+ h1{
+  margin-bottom: 10px;
+  font-family: "Quintessential", serif;
+  font-weight: 800;
+  font-style: normal;
+ }
+
+h2{
+  text-align: center;
+  margin:1px 1px 1px 1px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #9F6A40;
+}
+
+.poema{
+  max-width: 400px;
+  min-width: 200px;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 14px;
+  background-color: white;
+
+}
+
+.primeira-imagem{
+  background-image: url(imagens/Santo-Agostinho-1.jpg) ;
+  width: 100%;
+  height: 600px;
+  background-position: top center;
+  box-shadow:  inset 0px 0px 20px 10px #000000bf;
+   background-size:cover;
+    background-attachment: fixed ;
+    position: relative;
+}
+
+.frase{
+  min-height: 400px;
+  font-size: 1.5rem;
+  padding-top: 90px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  
+}
+
+.primeira-imagem > .poema{
+  background-color: rgba(0, 0, 0, 0.46);
+  position:absolute;
+  top: 3%;
+  left: 10px;
+  color: white;
+  
+ 
+}
+
+.segunda-imagem{
+  background-image: url(imagens/Santo-Agostinho-2.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: top center;
+  box-shadow:  inset 0px 0px 20px 10px #000000bf;
+  background-size:cover;
+  background-attachment: fixed ;
+  position: relative;
+}
+
+.segunda-imagem > .poema2{
+  background-color: rgba(0, 0, 0, 0.46);
+  position:absolute;
+  top: 20%;
+  left: 10px;
+  color: white;
+  height: 300px;
+
+}
+
+.poema2{
+  max-width: 400px;
+  min-width: 200px;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  height: 400px;
+}
+
+.poema2 > p {
+  margin-top: -2px;
+  padding-bottom: 5px;
+}
+
+footer{
+  text-align: center;
+  background-color: gold;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
